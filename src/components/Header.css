@@ -1,23 +1,9 @@
 .headerContainer {
   display: flex;
-  height: 100vh;
+  height: 4rem;
   flex-direction: column;
-}
-
-.headerContainer .navbar {
-  width: 100%;
   position: fixed;
-}
+  width: 100%;
 
-.headerContainer .logo {
-  display: flex;
-
-  margin: 0 20%;
-  align-items: center;
-  height: 100vh;
-}
-
-.headerContainer h1 {
-  color: white;
-  font-size: 5rem;
+  z-index: 10;
 }

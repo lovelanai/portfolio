@@ -1,0 +1,16 @@
+.typeWriter {
+  color: white;
+  font-size: 2rem;
+}
+
+.fullContainer {
+  display: flex;
+  margin: 0 20%;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.typeWriter h1 {
+  font-size: 5rem;
+}

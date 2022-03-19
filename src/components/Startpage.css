@@ -1,0 +1,4 @@
+.startPageContainer {
+  display: flex;
+  flex-direction: column;
+}

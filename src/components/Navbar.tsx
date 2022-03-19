@@ -2,6 +2,7 @@ import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
+import ScrollIntoView from "react-scroll-into-view";
 
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
@@ -26,7 +27,31 @@ export default function Navbar() {
                 },
               }}
             >
-              <Link to="/About">
+              <Box
+                sx={{
+                  flexGrow: 1,
+                  display: {
+                    xs: "none",
+                    md: "flex",
+                    justifyContent: "flex-start",
+                    alignItems: "center",
+                  },
+                }}
+              >
+                <ScrollIntoView selector="#start">
+                  <Button
+                    sx={{
+                      my: 2,
+                      color: "white",
+                      display: "block",
+                      margin: "0 2rem",
+                    }}
+                  >
+                    Start
+                  </Button>
+                </ScrollIntoView>
+              </Box>
+              <ScrollIntoView selector="#about">
                 <Button
                   sx={{
                     my: 2,
@@ -35,10 +60,11 @@ export default function Navbar() {
                     margin: "0 2rem",
                   }}
                 >
-                  About me
+                  About
                 </Button>
-              </Link>
-              <Link to="/Portfolio">
+              </ScrollIntoView>
+
+              <ScrollIntoView selector="#portfolio">
                 <Button
                   sx={{
                     my: 2,
@@ -49,17 +75,20 @@ export default function Navbar() {
                 >
                   Portfolio
                 </Button>
-              </Link>
-              <Button
-                sx={{
-                  my: 2,
-                  color: "white",
-                  display: "block",
-                  margin: "0 2rem",
-                }}
-              >
-                Contact
-              </Button>
+              </ScrollIntoView>
+
+              <ScrollIntoView selector="#contact">
+                <Button
+                  sx={{
+                    my: 2,
+                    color: "white",
+                    display: "block",
+                    margin: "0 2rem",
+                  }}
+                >
+                  Contact
+                </Button>
+              </ScrollIntoView>
             </Box>
           </Toolbar>
         </Container>

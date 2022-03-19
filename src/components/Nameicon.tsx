@@ -1,5 +1,8 @@
 import Typewriter from "typewriter-effect";
 import "./Nameicon.css";
+import React, { Component } from "react";
+
+import ParticlesBg from "particles-bg";
 
 export default function Nameicon() {
   return (
@@ -16,6 +19,7 @@ export default function Nameicon() {
           />
         </div>
       </div>
+      <ParticlesBg type="cobweb" color="#ff0000" num={200} bg={true} />
     </div>
   );
 }

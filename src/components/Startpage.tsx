@@ -5,7 +5,7 @@ import "./Startpage.css";
 export default function Startpage() {
   return (
     <div>
-      <div className="startPageContainer">
+      <div id="start" className="startPageContainer">
         <Nameicon />
       </div>
     </div>

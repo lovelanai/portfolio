@@ -19,7 +19,7 @@ export default function Nameicon() {
           />
         </div>
       </div>
-      <ParticlesBg type="cobweb" color="#ff0000" num={200} bg={true} />
+      <ParticlesBg type="cobweb" color="#ff0000" num={100} bg={true} />
     </div>
   );
 }

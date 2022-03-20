@@ -1,4 +1,4 @@
-.aboutContainer {
+.contactContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,6 +8,6 @@
   background-color: black;
 }
 
-.aboutContainer h1 {
+.contactContainer h1 {
   color: white;
 }

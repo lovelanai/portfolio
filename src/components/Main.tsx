@@ -1,9 +1,9 @@
 import "./Main.css";
 import { Routes, Route } from "react-router-dom";
-import About from "./About";
 import Startpage from "./Startpage";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import About from "./About";
 
 export default function Main() {
   return (
@@ -12,8 +12,8 @@ export default function Main() {
         <Route path="/" element={<Startpage />} />
       </Routes>
 
-      <About />
       <Portfolio />
+      <About />
       <Contact />
     </div>
   );

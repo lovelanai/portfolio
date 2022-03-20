@@ -1,4 +1,3 @@
-import About from "./About";
 import Nameicon from "./Nameicon";
 import "./Startpage.css";
 

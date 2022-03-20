@@ -51,19 +51,6 @@ export default function Navbar() {
                   </Button>
                 </ScrollIntoView>
               </Box>
-              <ScrollIntoView selector="#about">
-                <Button
-                  sx={{
-                    my: 2,
-                    color: "white",
-                    display: "block",
-                    margin: "0 2rem",
-                  }}
-                >
-                  About
-                </Button>
-              </ScrollIntoView>
-
               <ScrollIntoView selector="#portfolio">
                 <Button
                   sx={{
@@ -74,6 +61,19 @@ export default function Navbar() {
                   }}
                 >
                   Portfolio
+                </Button>
+              </ScrollIntoView>
+
+              <ScrollIntoView selector="#about">
+                <Button
+                  sx={{
+                    my: 2,
+                    color: "white",
+                    display: "block",
+                    margin: "0 2rem",
+                  }}
+                >
+                  About
                 </Button>
               </ScrollIntoView>
 

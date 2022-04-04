@@ -8,3 +8,7 @@ body {
   background-attachment: fixed;
   background-color: black;
 }
+
+a {
+  text-decoration: none;
+}

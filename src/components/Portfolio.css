@@ -4,10 +4,10 @@
   height: 100vh;
   background-color: #000;
   justify-content: center;
-  align-items: center;
 }
 .portfolio img {
-  width: 30%;
+  cursor: pointer;
+  width: 90%;
   height: 80%;
   object-fit: contain;
 
@@ -18,10 +18,7 @@
   transform: perspective(800px) rotateY(25deg);
   transition: 0.5s;
 }
-.portfolio .container {
-  max-width: 600px;
-  max-height: 350px;
-
+.img-container {
   display: flex;
   justify-content: center;
   align-items: center;
